@@ -103,7 +103,7 @@ export const SignInCard = () => {
               )}
             />
 
-            <Button type="submit" disabled={isPending} size="lg" className="w-full">
+            <Button type="submit" disabled={isPending} size="lg" className="w-full bg-black/90">
               Login
             </Button>
           </form>
