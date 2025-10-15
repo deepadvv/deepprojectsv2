@@ -212,7 +212,7 @@ export const CreateTaskForm = ({ initialStatus, onCancel, memberOptions, project
                 Cancel
               </Button>
 
-              <Button disabled={isPending} type="submit" size="lg">
+              <Button className="bg-black/90" disabled={isPending} type="submit" size="lg">
                 Create Task
               </Button>
             </div>
