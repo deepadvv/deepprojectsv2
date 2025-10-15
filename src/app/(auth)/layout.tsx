@@ -28,7 +28,7 @@ const AuthLayout = ({ children }: PropsWithChildren) => {
         </nav> */}
 
         <div className="flex py-16 space-y-16 flex-col items-center justify-center p-4 md:pt-14">
-          <AnimatedBadge text="DeepProjects" color="#22d3ee" />
+          {/* <AnimatedBadge text="DeepProjects" color="#22d3ee" /> */}
           {children}
         </div>
       </div>
