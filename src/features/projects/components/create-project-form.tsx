@@ -191,7 +191,7 @@ export const CreateProjectForm = ({ onCancel }: CreateProjectFormProps) => {
                 Cancel
               </Button>
 
-              <Button disabled={isPending} type="submit" size="lg">
+              <Button className="bg-black/90" disabled={isPending} type="submit" size="lg">
                 Create Project
               </Button>
             </div>

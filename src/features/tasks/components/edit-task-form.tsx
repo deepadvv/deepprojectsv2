@@ -202,7 +202,7 @@ export const EditTaskForm = ({ onCancel, memberOptions, projectOptions, initialV
                 Cancel
               </Button>
 
-              <Button className="" disabled={isPending} type="submit" size="lg">
+              <Button className="bg-black/90" disabled={isPending} type="submit" size="lg">
                 Save Changes
               </Button>
             </div>
