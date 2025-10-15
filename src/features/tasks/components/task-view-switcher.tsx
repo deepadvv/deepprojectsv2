@@ -73,7 +73,7 @@ export const TaskViewSwitcher = ({ projectId, hideProjectFilter }: TaskViewSwitc
             </TabsTrigger>
           </TabsList>
 
-          <Button onClick={() => open()} size="sm" className="w-full lg:w-auto">
+          <Button onClick={() => open()} size="sm" className="w-full lg:w-auto bg-black/90">
             <PlusIcon className="size-4" />
             New
           </Button>
